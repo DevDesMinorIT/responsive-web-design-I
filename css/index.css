@@ -1,3 +1,74 @@
 /* Use your own code or past solution for Great Idea Web Page CSS here! */
+* {
+      box-sizing: border-box;
+}
 
+body {
+      max-width: 800px;
+      margin: 0 auto;
+}
 
+.container {
+      width: 800px;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      margin: 0 auto;
+      justify-content: space-evenly;
+}
+
+nav {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      justify-content: space-between;
+}
+
+a {
+      text-decoration: none;
+      color: black;
+      margin: 40px;
+      padding: 10px;
+      font-size: 20px;
+}
+
+.img-logo {
+      margin-left: 60px;
+      margin-top: 30px;
+}
+
+h1 {
+      display: inline;
+}
+
+div {
+      display: inline-block;
+      width: 45.9%;
+      height: 380px;
+}
+
+top-content {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      justify-content: center;
+}
+
+section.service-product-vision {
+      display: flex;
+}
+
+section.features-about {
+      display: flex;
+      flex-direction: row;
+}
+
+div.left-content {
+      float: left;
+      padding-left: 20px;
+      padding-top: 20px;
+}
+
+h1 {
+      font-size: 40px;
+}
