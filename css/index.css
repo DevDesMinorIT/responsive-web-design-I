@@ -111,11 +111,11 @@ content and images also in column
 
       a {
             display: block;
+            color: gray;
+            font-family: sans-serif;
       }
 
       .img-logo {
             margin: 0 auto;
       }
-}
-}
 }
