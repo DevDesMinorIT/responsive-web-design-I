@@ -1,3 +1,121 @@
 /* Use your own code or past solution for Great Idea Web Page CSS here! */
+* {
+      box-sizing: border-box;
+}
 
+body {
+      max-width: 800px;
+      margin: 0 auto;
+}
 
+.container {
+      width: 800px;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      margin: 0 auto;
+      justify-content: space-evenly;
+}
+
+nav {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      justify-content: space-between;
+}
+
+a {
+      text-decoration: none;
+      color: black;
+      margin: 40px;
+      padding: 10px;
+      font-size: 16px;
+}
+
+.img-logo {
+      margin-left: 60px;
+      margin-top: 30px;
+}
+
+h1 {
+      display: inline;
+}
+
+div {
+      display: inline-block;
+      width: 45.9%;
+      height: 380px;
+}
+
+top-content {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      justify-content: center;
+}
+
+section.service-product-vision {
+      display: flex;
+}
+
+section.features-about {
+      display: flex;
+      flex-direction: row;
+}
+
+div.left-content {
+      float: left;
+      padding-left: 20px;
+      padding-top: 40px;
+      margin-top: 10px;
+}
+
+h1 {
+      font-family: Menlo;
+      font-size: 40px;
+      font-weight: 900;
+      font-style: italic;
+}
+
+footer.foot-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+}
+
+/* 
+Part 2: Mobile Design Layout
+media queries @ 500px 
+media queries @ 800px
+logo @ top of the view
+links in flex-direction: column;
+content and images also in column 
+
+*/
+@media(max-width: 500px) {
+      body {
+            max-width: 500px;
+      }
+
+      .container {
+            width: 500px;
+            margin: 0 auto;
+      }
+
+      nav.nav-content {
+            display: flex;
+            flex-direction: column-reverse;
+            align-items: center;
+            flex-wrap: wrap;
+      }
+
+      a {
+            display: block;
+            color: gray;
+            font-family: sans-serif;
+      }
+
+      .img-logo {
+            margin: 0 auto;
+      }
+}
